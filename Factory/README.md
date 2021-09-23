@@ -1,5 +1,7 @@
 ## Factory模式小结
-    作者：Reve4Mevol（转载请注明出处:https://github.com/Reve4Mevol）
+
+    作者：Reve4Mevol (转载请注明出处:https://github.com/Reve4Mevol)
+
 在程序设计过程中，我们经常会有批量创建某种类型对象的操作，这个时候我们的想法一般是想着设计一个 "工厂" 去完成批量创建的操作，但一般的设计很容易导致工厂类与产品类具有强耦合性，在需求变更时需要耗费许多不必要的精力。
 
 而利用工厂模式，此例子中的 `PhoneMaker` 就做到了完全不依赖表示具体对象的 `HonerPhone` 和 `MeizuPhone` , 将对对象的依赖延迟到了最外层（例子里的 `main` 函数）。
