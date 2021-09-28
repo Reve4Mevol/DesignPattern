@@ -3,3 +3,4 @@ project(DesignPatterns)
 
 add_subdirectory(Factory)
 add_subdirectory(AbstractFactory)
+add_subdirectory(Singleton)
